@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea Maciej Wiatr <maciekwiatr17@gmail.com> 1578665823 +0100	commit (initial): ab
+6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea 6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea Maciej Wiatr <maciekwiatr17@gmail.com> 1578665853 +0100	checkout: moving from first to second
+6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea 6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea Maciej Wiatr <maciekwiatr17@gmail.com> 1578666254 +0100	rebase -i (start): checkout second
+6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea 6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea Maciej Wiatr <maciekwiatr17@gmail.com> 1578666257 +0100	rebase -i (start): checkout refs/heads/first
+6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea 6a50891aa008f32c4bfc2d648fc5d3dd02edc3ea Maciej Wiatr <maciekwiatr17@gmail.com> 1578666257 +0100	rebase -i (finish): returning to refs/heads/second

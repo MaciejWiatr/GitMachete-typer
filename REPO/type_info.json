@@ -1,0 +1,749 @@
+[
+    {
+        "type_comments": [
+            "(unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 25, 
+        "samples": 2, 
+        "func_name": "MacheteException.__init__"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 46, 
+        "samples": 5, 
+        "func_name": "bold"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 51, 
+        "samples": 1, 
+        "func_name": "dim"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 56, 
+        "samples": 5, 
+        "func_name": "underline"
+    }, 
+    {
+        "type_comments": [
+            "(str, str) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 61, 
+        "samples": 5, 
+        "func_name": "colored"
+    }, 
+    {
+        "type_comments": [
+            "() -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 66, 
+        "samples": 3, 
+        "func_name": "vertical_bar"
+    }, 
+    {
+        "type_comments": [
+            "(function) -> function"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 75, 
+        "samples": 5, 
+        "func_name": "star"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> List[unicode]", 
+            "(unicode) -> List"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 88, 
+        "samples": 5, 
+        "func_name": "non_empty_lines"
+    }, 
+    {
+        "type_comments": [
+            "(List[unicode], List[str]) -> List", 
+            "(List[unicode], List) -> List[unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 93, 
+        "samples": 4, 
+        "func_name": "excluding"
+    }, 
+    {
+        "type_comments": [
+            "(unicode, unicode) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 112, 
+        "samples": 1, 
+        "func_name": "ask_if"
+    }, 
+    {
+        "type_comments": [
+            "(str, str) -> None", 
+            "(unicode, str) -> None", 
+            "(unicode, unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 132, 
+        "samples": 5, 
+        "func_name": "debug"
+    }, 
+    {
+        "type_comments": [
+            "(str, *Union[str, unicode]) -> Tuple[int, unicode, unicode]", 
+            "(str, *str) -> Tuple[int, unicode, unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 153, 
+        "samples": 5, 
+        "func_name": "popen_cmd"
+    }, 
+    {
+        "type_comments": [
+            "(str, Tuple[str, unicode]) -> unicode", 
+            "(str, Tuple[]) -> str", 
+            "(str, Tuple[str, str]) -> str", 
+            "(str, Tuple[str]) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 163, 
+        "samples": 5, 
+        "func_name": "cmd_shell_repr"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 165, 
+        "samples": 5, 
+        "func_name": "shell_escape"
+    }, 
+    {
+        "type_comments": [
+            "(str, *Union[str, unicode]) -> pyannotate_runtime.collect_types.NoReturnType", 
+            "(str, *str) -> unicode", 
+            "(str) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 189, 
+        "samples": 5, 
+        "func_name": "popen_git"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 211, 
+        "samples": 2, 
+        "func_name": "expect_in_managed_branches"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 218, 
+        "samples": 2, 
+        "func_name": "expect_at_least_one_managed_branch"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 230, 
+        "samples": 5, 
+        "func_name": "read_definition_file"
+    }, 
+    {
+        "type_comments": [
+            "() -> List[unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 292, 
+        "samples": 2, 
+        "func_name": "render_tree"
+    }, 
+    {
+        "type_comments": [
+            "(unicode, int) -> pyannotate_runtime.collect_types.UnknownType", 
+            "(unicode, int) -> List[unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 298, 
+        "samples": 3, 
+        "func_name": "render_dfs"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 312, 
+        "samples": 1, 
+        "func_name": "back_up_definition_file"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 318, 
+        "samples": 2, 
+        "func_name": "save_definition_file"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 412, 
+        "samples": 1, 
+        "func_name": "add"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 475, 
+        "samples": 1, 
+        "func_name": "print_annotation"
+    }, 
+    {
+        "type_comments": [
+            "() -> Tuple[int, int, int]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 530, 
+        "samples": 5, 
+        "func_name": "get_git_version"
+    }, 
+    {
+        "type_comments": [
+            "() -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 552, 
+        "samples": 5, 
+        "func_name": "get_abs_git_dir"
+    }, 
+    {
+        "type_comments": [
+            "(*str) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 564, 
+        "samples": 5, 
+        "func_name": "get_abs_git_subpath"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 580, 
+        "samples": 5, 
+        "func_name": "get_config_or_none"
+    }, 
+    {
+        "type_comments": [
+            "() -> List"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 612, 
+        "samples": 5, 
+        "func_name": "remotes"
+    }, 
+    {
+        "type_comments": [
+            "(str, str) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 675, 
+        "samples": 5, 
+        "func_name": "commit_sha_by_revision"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 686, 
+        "samples": 2, 
+        "func_name": "find_remote_tracking_branch"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 703, 
+        "samples": 4, 
+        "func_name": "remote_tracking_branch"
+    }, 
+    {
+        "type_comments": [
+            "() -> bool"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 711, 
+        "samples": 4, 
+        "func_name": "is_cherry_pick_in_progress"
+    }, 
+    {
+        "type_comments": [
+            "() -> bool"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 716, 
+        "samples": 4, 
+        "func_name": "is_merge_in_progress"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 724, 
+        "samples": 4, 
+        "func_name": "currently_rebased_branch_or_none"
+    }, 
+    {
+        "type_comments": [
+            "() -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 748, 
+        "samples": 5, 
+        "func_name": "currently_checked_out_branch_or_none"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 757, 
+        "samples": 1, 
+        "func_name": "expect_no_operation_in_progress"
+    }, 
+    {
+        "type_comments": [
+            "() -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 767, 
+        "samples": 5, 
+        "func_name": "current_branch_or_none"
+    }, 
+    {
+        "type_comments": [
+            "() -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 772, 
+        "samples": 5, 
+        "func_name": "current_branch"
+    }, 
+    {
+        "type_comments": [
+            "(str, str, str, str) -> bool", 
+            "(str, unicode, str, str) -> bool", 
+            "(unicode, unicode, str, str) -> bool"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 794, 
+        "samples": 5, 
+        "func_name": "is_ancestor"
+    }, 
+    {
+        "type_comments": [
+            "(unicode, int) -> List[unicode]", 
+            "(str, int) -> List[unicode]", 
+            "(unicode, None) -> List[unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 813, 
+        "samples": 3, 
+        "func_name": "log_shas"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> Iterator", 
+            "(unicode) -> Iterator", 
+            "(str) -> Iterator[unicode]", 
+            "(unicode) -> Iterator[unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 828, 
+        "samples": 5, 
+        "func_name": "spoonfeed_log_shas"
+    }, 
+    {
+        "type_comments": [
+            "() -> List[unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 845, 
+        "samples": 5, 
+        "func_name": "local_branches"
+    }, 
+    {
+        "type_comments": [
+            "() -> Tuple[List[unicode], List]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 861, 
+        "samples": 1, 
+        "func_name": "load_branches"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 901, 
+        "samples": 3, 
+        "func_name": "get_hook_path"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> bool"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 907, 
+        "samples": 3, 
+        "func_name": "check_hook_executable"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> Tuple[int, None]", 
+            "(unicode) -> Tuple[int, None]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1004, 
+        "samples": 5, 
+        "func_name": "get_remote_sync_status"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1023, 
+        "samples": 1, 
+        "func_name": "load_all_reflogs"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> List[Tuple[unicode, unicode]]", 
+            "(str) -> List[Tuple[unicode, unicode]]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1048, 
+        "samples": 5, 
+        "func_name": "reflog"
+    }, 
+    {
+        "type_comments": [
+            "(unicode, str) -> List[unicode]", 
+            "(str, str) -> List", 
+            "(unicode, str) -> List"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1071, 
+        "samples": 5, 
+        "func_name": "adjusted_reflog"
+    }, 
+    {
+        "type_comments": [
+            "(unicode, unicode) -> bool"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1073, 
+        "samples": 5, 
+        "func_name": "is_relevant_reflog_subject"
+    }, 
+    {
+        "type_comments": [
+            "(str) -> Iterator", 
+            "(unicode) -> Iterator[Tuple[unicode, List[Tuple[unicode, unicode]]]]", 
+            "(str) -> Iterator[Tuple[unicode, List[Tuple[unicode, unicode]]]]", 
+            "(unicode) -> Iterator", 
+            "(unicode) -> Iterator"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1116, 
+        "samples": 5, 
+        "func_name": "match_log_to_adjusted_reflogs"
+    }, 
+    {
+        "type_comments": [
+            "() -> Iterator", 
+            "() -> Iterator[Tuple[unicode, Tuple[unicode, unicode]]]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1125, 
+        "samples": 2, 
+        "func_name": "generate_entries"
+    }, 
+    {
+        "type_comments": [
+            "() -> Iterator", 
+            "() -> Iterator[unicode]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1147, 
+        "samples": 2, 
+        "func_name": "log_result"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> List", 
+            "(str) -> List"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1169, 
+        "samples": 4, 
+        "func_name": "is_merged_to_parent"
+    }, 
+    {
+        "type_comments": [
+            "(unicode, function, str) -> None", 
+            "(unicode, function, str) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1188, 
+        "samples": 2, 
+        "func_name": "infer_upstream"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1205, 
+        "samples": 1, 
+        "func_name": "discover_tree"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1222, 
+        "samples": 1, 
+        "func_name": "get_root_of"
+    }, 
+    {
+        "type_comments": [
+            "(str, bool) -> Tuple[unicode, List[Tuple[unicode, unicode]]]", 
+            "(unicode, bool) -> Tuple[unicode, List[Tuple[unicode, unicode]]]"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1278, 
+        "samples": 5, 
+        "func_name": "fork_point_and_containing_branch_defs"
+    }, 
+    {
+        "type_comments": [
+            "(str, bool) -> unicode", 
+            "(unicode, bool) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1326, 
+        "samples": 2, 
+        "func_name": "fork_point"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> unicode", 
+            "(str) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1331, 
+        "samples": 5, 
+        "func_name": "config_key_for_override_fork_point_to"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> unicode", 
+            "(str) -> str"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1336, 
+        "samples": 5, 
+        "func_name": "config_key_for_override_fork_point_while_descendant_of"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None", 
+            "(str) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1347, 
+        "samples": 5, 
+        "func_name": "get_fork_point_override_data"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None", 
+            "(str) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1378, 
+        "samples": 5, 
+        "func_name": "get_overridden_fork_point"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1424, 
+        "samples": 1, 
+        "func_name": "delete_unmanaged"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1627, 
+        "samples": 1, 
+        "func_name": "traverse"
+    }, 
+    {
+        "type_comments": [
+            "(bool) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1634, 
+        "samples": 1, 
+        "func_name": "print_new_line"
+    }, 
+    {
+        "type_comments": [
+            "(bool, bool) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1835, 
+        "samples": 3, 
+        "func_name": "status"
+    }, 
+    {
+        "type_comments": [
+            "(str, List) -> pyannotate_runtime.collect_types.UnknownType", 
+            "(unicode, List) -> pyannotate_runtime.collect_types.UnknownType", 
+            "(str, List) -> None", 
+            "(unicode, List) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1839, 
+        "samples": 4, 
+        "func_name": "prefix_dfs"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> unicode", 
+            "(str) -> unicode"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1855, 
+        "samples": 3, 
+        "func_name": "fp_sha"
+    }, 
+    {
+        "type_comments": [
+            "(unicode) -> None", 
+            "(str) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1883, 
+        "samples": 5, 
+        "func_name": "write_unicode"
+    }, 
+    {
+        "type_comments": [
+            "(unicode, unicode) -> None", 
+            "(str, unicode) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1890, 
+        "samples": 5, 
+        "func_name": "print_line_prefix"
+    }, 
+    {
+        "type_comments": [
+            "(None) -> None", 
+            "(str) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 1993, 
+        "samples": 2, 
+        "func_name": "usage"
+    }, 
+    {
+        "type_comments": [
+            "() -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 2452, 
+        "samples": 1, 
+        "func_name": "short_usage"
+    }, 
+    {
+        "type_comments": [
+            "(List[str]) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 2465, 
+        "samples": 5, 
+        "func_name": "launch"
+    }, 
+    {
+        "type_comments": [
+            "(List, str, List[str], bool) -> List", 
+            "(List[str], str, List, bool) -> List[str]", 
+            "(List, str, List, bool) -> List"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 2467, 
+        "samples": 5, 
+        "func_name": "parse_options"
+    }, 
+    {
+        "type_comments": [
+            "(List, str) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 2541, 
+        "samples": 5, 
+        "func_name": "expect_no_param"
+    }, 
+    {
+        "type_comments": [
+            "(List) -> None"
+        ], 
+        "path": "git_machete/cmd.py", 
+        "line": 2546, 
+        "samples": 3, 
+        "func_name": "check_optional_param"
+    }
+]
